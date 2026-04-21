@@ -1,0 +1,163 @@
+
+/* this is a css reset that makes sure the browser won't add any unexpected margins or padding to your page */
+body, html{
+  background-color: black;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+@media screen and (min-width: 1400px){
+    padding-left: 550px;
+    padding-right: 550px;
+    background-clip: content-box;
+}
+}
+
+.content{
+
+background-color: lightgrey;
+}
+
+
+h1{
+color:red;
+margin-bottom: 2px;
+margin-top: 2px;
+font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+text-align: center;
+ 
+}
+
+h1{
+@media screen and (min-width: 1500px){
+   font-size: 120px;
+}
+}
+
+.heading{
+font-size: 16pt;
+font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+text-align: center;
+margin-bottom: 10px;
+margin-top: 0px;
+
+}
+
+.heading{
+@media screen and (min-width: 1024px){
+   font-size: 15px;
+}
+}
+
+h2{
+margin-left: 10px;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  left: -5px;
+  text-align: center;
+
+}
+
+h2{
+@media screen and (max-width: 2400px){
+   font-size: 16px;
+}
+
+}
+
+iframe {
+  width: 850px;
+  height: 1145px;
+  border: 4px solid black;
+  float: right;
+  transform:translateX(4px);
+  margin-left: -5px;
+}
+
+iframe{
+@media screen and (max-width: 1500px){
+  display: none;
+}
+}
+
+
+.materials{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+margin-left: 2px;
+font-size: 20pt;
+font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+hr{
+  border: 2px solid black;
+}
+
+
+.materials{
+@media screen and (max-width: 2400px){
+   font-size: 17px;
+}
+
+}
+
+
+.instructions{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 10px;
+ text-align: left;
+  position: relative;
+  position: relative;
+  left: -20px;
+}
+
+.instructions{
+@media screen and (max-width: 1024px){
+   font-size: 11px;
+}
+}
+
+.instructions{
+@media screen and (max-width: 2400px){
+   font-size: 12px;
+}
+
+
+}
+
+
+.links{
+  margin-top: 50px;
+  word-spacing: 1200px;
+  text-align: center;
+font-size: 18pt;
+font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.links{
+@media screen and (min-width: 2500px){
+   margin-top: 70px;
+
+}
+
+
+}
